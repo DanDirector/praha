@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rekonstrukce Praha</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #fdfdfd, #f2f2f2);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+      color: white;
+      height: 80vh;
+      padding: 60px 20px;
+      text-align: left;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      max-width: 600px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    .contact-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .section:nth-of-type(even) {
+      background-color: #ffffff;
+    }
+    .section:nth-of-type(odd) {
+      background-color: #e9ecef;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .service-card h5 {
+      margin: 16px;
+      font-weight: 600;
+    }
+    .service-card p {
+      margin: 0 16px 16px;
+    }
+    .testimonial {
+      display: flex;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      padding: 20px;
+      margin-bottom: 20px;
+      align-items: center;
+      gap: 20px;
+    }
+    .testimonial img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .cta {
+      text-align: center;
+      background: none;
+      padding: 40px 0;
+    }
+    .footer {
+      background: #1b1e22;
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="contact-top">
+    📞 <a href="tel:+420123456789" class="text-white text-decoration-none">+420 123 456 789</a>
+  </div>
+  <h1>Rekonstrukce a opravy bytů – Praha</h1>
+  <p>Kompletní služby – od návrhu po realizaci. Férové ceny, smluvní záruky, kvalitní práce.</p>
+</div>
+
+<div class="section">
+  <h2 class="section-title">Naše služby</h2>
+  <div class="container card-grid">
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=600&q=80" alt="Rekonstrukce">
+      <h5>Kompletní rekonstrukce</h5>
+      <p>Byty, domy, koupelny – od návrhu po realizaci.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1597805651417-44cfb8f9e90f?auto=format&fit=crop&w=600&q=80" alt="Instalace">
+      <h5>Instalace a opravy</h5>
+      <p>Elektro, voda, omítky, obklady, dlažby, zateplení.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1560185895-09d8a05b1d8a?auto=format&fit=crop&w=600&q=80" alt="Příprava">
+      <h5>Příprava pro pronájem</h5>
+      <p>Rychlé úpravy bytů pro pronájem nebo prodej.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">Zkušenosti zákazníků</h2>
+  <div class="container">
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="Martin">
+      <div>
+        <p class="mb-1">„Rychlá a kvalitní práce. Všechno proběhlo bez komplikací.“</p>
+        <small>Martin, Praha 4</small>
+      </div>
+    </div>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Lucie">
+      <div>
+        <p class="mb-1">„Byt připravený k pronájmu za 10 dní. Férové jednání.“</p>
+        <small>Lucie, Praha 5</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">Kontaktujte nás</h2>
+  <div class="container">
+    <div class="cta">
+      <p class="lead">Zavolejte nám: <strong><a href="tel:+420123456789" class="text-decoration-none">+420 123 456 789</a></strong></p>
+      <p>Rádi vám poradíme a domluvíme si osobní schůzku v Praze.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  &copy; 2025 Rekonstrukce Praha – Všechna práva vyhrazena
+</div>
+
+<script>
+  console.log("✅ Testovací zpráva: konzole funguje správně.");
+</script>
+
+</body>
+</html>
