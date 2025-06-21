@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rekonstrukce bytu v Praze – Kompletní služby na klíč</title>
+  <meta name="description" content="Rychlá a kvalitní rekonstrukce bytu v Praze. Vše na klíč – elektro, voda, obklady. Nezávazná kalkulace zdarma.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+    img { max-width: 100%; display: block; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+    .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; color: #fff; padding: 80px 0; text-align: center; }
+    .hero h1 { margin: 0 0 10px; font-size: 2rem; }
+    .hero p { margin-bottom: 20px; font-size: 1.1rem; }
+    .btn-primary { background: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; text-decoration: none; display: inline-block; }
+    .btn-primary:hover { background: #0069d9; }
+    .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center; padding: 40px 0; }
+    .benefit { background: #f5f5f5; padding: 20px; border-radius: 8px; }
+    form { display: grid; gap: 10px; margin: 40px 0; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+    .testimonials { background: #f5f5f5; padding: 40px 0; }
+    .testimonial { max-width: 600px; margin: 0 auto 20px; }
+    .prices { padding: 40px 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .price { border: 1px solid #ccc; border-radius: 8px; padding: 20px; text-align: center; }
+    .faq-item { border-bottom: 1px solid #ccc; }
+    .faq-item button { width: 100%; padding: 15px; text-align: left; background: none; border: none; font-size: 1rem; }
+    .faq-item div { overflow: hidden; max-height: 0; transition: max-height 0.3s ease; padding: 0 15px; }
+    .contact { background: #1b1e22; color: #fff; padding: 40px 0; text-align: center; }
+    @media (min-width: 600px) { .hero h1 { font-size: 2.5rem; } }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Rekonstrukce bytů v Praze – rychle, čistě, spolehlivě</h1>
+    <p>Kompletní rekonstrukce od 3 týdnů. Bez stresu. Se zárukou.</p>
+    <a href="#formular" class="btn-primary">Získat nabídku zdarma</a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="benefits">
+    <div class="benefit">Kompletní tým – elektro, voda, obklady</div>
+    <div class="benefit">Bezplatná kalkulace a zaměření</div>
+    <div class="benefit">Fotky před a po</div>
+    <div class="benefit">Garance dodržení termínů nebo sleva</div>
+  </section>
+
+  <section id="formular">
+    <form id="calcForm">
+      <input type="text" name="jmeno" placeholder="Jméno" required>
+      <input type="tel" name="telefon" placeholder="Telefon" required>
+      <textarea name="popis" rows="4" placeholder="Popis rekonstrukce"></textarea>
+      <button type="submit" class="btn-primary">Získat nezávaznou nabídku</button>
+    </form>
+  </section>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/400x300" alt="Panelák, Praha 4, 3 týdny">
+    <img src="https://via.placeholder.com/400x300" alt="Byt, Praha 5, 4 týdny">
+    <img src="https://via.placeholder.com/400x300" alt="Rekonstrukce, Praha 3, 5 týdnů">
+    <img src="https://via.placeholder.com/400x300" alt="Koupelna, Praha 2, 2 týdny">
+    <img src="https://via.placeholder.com/400x300" alt="Kuchyň, Praha 8, 3 týdny">
+    <img src="https://via.placeholder.com/400x300" alt="Ložnice, Praha 10, 4 týdny">
+  </section>
+
+  <section class="testimonials">
+    <div class="testimonial">
+      <p>„Skvělá spolupráce a dodržení termínů. Doporučuji!“</p>
+      <strong>Jan Novák</strong>
+    </div>
+    <div class="testimonial">
+      <p>„Výsledek předčil očekávání. Byt je jako nový.“</p>
+      <strong>Lucie M.</strong>
+    </div>
+  </section>
+
+  <section class="prices">
+    <div class="price">
+      <h3>Ekonom</h3>
+      <p>základní opravy, nový nátěr, výměna podlah</p>
+    </div>
+    <div class="price">
+      <h3>Standard</h3>
+      <p>koupelna + kuchyň, nové rozvody, obklady</p>
+    </div>
+    <div class="price">
+      <h3>Premium</h3>
+      <p>celý byt na klíč, design, projekt, vše nové</p>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="faq-item">
+      <button aria-expanded="false">Jak dlouho trvá rekonstrukce?</button>
+      <div>Obvykle od 3 do 6 týdnů podle rozsahu prací.</div>
+    </div>
+    <div class="faq-item">
+      <button aria-expanded="false">Poskytujete záruku?</button>
+      <div>Na veškeré práce poskytujeme záruku 5 let.</div>
+    </div>
+    <div class="faq-item">
+      <button aria-expanded="false">Jak probíhá platba?</button>
+      <div>Po podpisu smlouvy záloha 30 %, doplatek po dokončení.</div>
+    </div>
+    <div class="faq-item">
+      <button aria-expanded="false">Je možné pracovat bez mé přítomnosti?</button>
+      <div>Ano, vše dokumentujeme a konzultujeme online.</div>
+    </div>
+  </section>
+
+</main>
+
+<section class="contact">
+  <p>Telefon: <a href="tel:+420000000000">+420 000 000 000</a></p>
+  <p><a href="https://wa.me/000000000">WhatsApp</a> | <a href="mailto:info@example.com">info@example.com</a></p>
+  <iframe src="https://maps.google.com/maps?q=Praha&t=&z=13&ie=UTF8&iwloc=&output=embed" width="300" height="200" style="border:0;" allowfullscreen loading="lazy"></iframe>
+</section>
+
+<script>
+  document.getElementById('calcForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    console.log('Formulář odeslán');
+  });
+
+  document.querySelectorAll('.faq-item button').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var content = this.nextElementSibling;
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      if (expanded) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
