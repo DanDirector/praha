@@ -319,3 +319,12 @@ body.fasady .step {
   padding: 30px 10px;
   text-align: center;
 }
+
+/* Ensure footer links stay readable on dark background */
+.footer a,
+.footer .text-muted {
+  color: #f8f9fa !important;
+}
+.footer a:hover {
+  color: #ffffff !important;
+}
