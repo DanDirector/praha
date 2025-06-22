@@ -96,6 +96,11 @@ body.home .testimonial img {
   border-radius: 50%;
   object-fit: cover;
 }
+@media (min-width: 768px) {
+  body.home .testimonial {
+    margin-bottom: 0;
+  }
+}
 body.home .cta {
   text-align: center;
   background: none;
