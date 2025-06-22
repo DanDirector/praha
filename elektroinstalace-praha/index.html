@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elektroinstalace v Praze – Zásuvky, jističe, revize</title>
+  <meta name="description" content="Kompletní elektroinstalace v Praze. Zásahy od 60 minut, certifikace ČSN, kalkulace zdarma.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1581091945907-1b1d83b3d1f2') center/cover no-repeat;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .banner {
+      background:#ffc107;
+      text-align:center;
+      padding:10px 0;
+      font-weight:bold;
+    }
+    .icon-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+    .icon-grid div{
+      background:#f8f9fa;
+      padding:20px;
+      border-radius:8px;
+    }
+    .gallery img{cursor:pointer;}
+    .faq button{width:100%;text-align:left;}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Elektroinstalace v Praze – rychle, bezpečně, s certifikací</h1>
+    <p class="lead">Od výměny zásuvky po kompletní elektroinstalaci. 24/7 dostupnost.</p>
+    <a href="#kontakt" class="btn btn-light">Získat nabídku zdarma</a>
+  </header>
+  <div class="banner">Rychlý výjezd do 60 minut</div>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Proč právě nás?</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">Certifikovaní technici</div>
+        <div class="col-md-3 mb-3">Pojištění odpovědnosti</div>
+        <div class="col-md-3 mb-3">Spolehlivá diagnostika</div>
+        <div class="col-md-3 mb-3">Shoda s ČSN</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Typy služeb</h2>
+      <div class="icon-grid">
+        <div>Zásuvky a vypínače</div>
+        <div>Jističe a rozvaděče</div>
+        <div>Elektroinstalace domů</div>
+        <div>Chytré domácnosti</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Ceník</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center">
+          <thead class="table-secondary">
+            <tr><th>Služba</th><th>Cena od</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Výměna zásuvky</td><td>500 Kč</td></tr>
+            <tr><td>Montáž jističe</td><td>800 Kč</td></tr>
+            <tr><td>Revize elektroinstalace</td><td>1500 Kč</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Galerie</h2>
+      <div class="row g-3 gallery">
+        <div class="col-6 col-md-3"><img src="https://images.unsplash.com/photo-1581092330212-096bc9aa84c5?w=400&q=80" class="img-fluid" alt="Práce"></div>
+        <div class="col-6 col-md-3"><img src="https://images.unsplash.com/photo-1581092919634-885dca87ad83?w=400&q=80" class="img-fluid" alt="Práce"></div>
+        <div class="col-6 col-md-3"><img src="https://images.unsplash.com/photo-1570222094267-c9a66d09f0c2?w=400&q=80" class="img-fluid" alt="Práce"></div>
+        <div class="col-6 col-md-3"><img src="https://images.unsplash.com/photo-1605810239538-0db509b7201a?w=400&q=80" class="img-fluid" alt="Práce"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Jak postupujeme</h2>
+      <p>Konzultace &rarr; Prohlídka &rarr; Realizace &rarr; Testování</p>
+    </div>
+  </section>
+
+  <section class="py-5 bg-warning text-center">
+    <div class="container">
+      <p class="fs-5 mb-2">Potřebujete zásah dnes? Zavolejte nebo pište.</p>
+      <a href="tel:+420123456789" class="btn btn-dark">Zavolejte elektrikáře</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Reference</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3"><em>„Bezproblémová montáž a čistá práce.“</em> – Jan, Praha 6</div>
+        <div class="col-md-6 mb-3"><em>„Bleskový zásah, vše funguje.“</em> – Petra, Praha 2</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Často kladené dotazy</h2>
+      <div class="accordion faq" id="faq">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a1">Je práce pojištěna?</button>
+          </h2>
+          <div id="a1" class="accordion-collapse collapse" data-bs-parent="#faq">
+            <div class="accordion-body">Ano, máme pojištění odpovědnosti za škodu.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">Provádíte revize?</button>
+          </h2>
+          <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faq">
+            <div class="accordion-body">Ano, dodáme potřebnou revizní dokumentaci.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Kontakt</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6"><input type="text" class="form-control" placeholder="Jméno" required></div>
+          <div class="col-md-6"><input type="email" class="form-control" placeholder="Email" required></div>
+        </div>
+        <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Vaše zpráva" required></textarea></div>
+        <button type="submit" class="btn btn-primary">Odeslat</button>
+        <a href="https://wa.me/420123456789" class="btn btn-success ms-2">WhatsApp</a>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>Kontakt: <a href="mailto:info@example.cz" class="text-white">info@example.cz</a></p>
+      <p>Licence: 12345-EZ</p>
+      <p>Otevírací doba: Po–Ne 0–24h</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
