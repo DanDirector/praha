@@ -14,7 +14,7 @@ body.home .hero {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/home-img.jpg') no-repeat center center/cover;
   height: 80vh;
   padding: 60px 20px;
   text-align: left;
