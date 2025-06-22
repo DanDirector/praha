@@ -16,16 +16,38 @@
   <meta property="og:locale" content="cs_CZ">
 </head>
 <body class="home">
-
-<div class="hero">
-  <div class="contact-top">
-    📞 <a href="tel:+420123456789" class="text-white text-decoration-none">+420 123 456 789</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">StavPraha</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="/#uvod">Úvod</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#sluzby">Služby</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#reference">Reference</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#kontakt">Kontakt</a>
+        </li>
+      </ul>
+      <a href="tel:+420123456789" class="btn btn-warning ms-3">Zavolejte</a>
+    </div>
   </div>
+</nav>
+
+<div class="hero" id="uvod">
   <h1>Rekonstrukce a opravy bytů – Praha</h1>
   <p>Kompletní služby – od návrhu po realizaci. Férové ceny, smluvní záruky, kvalitní práce.</p>
 </div>
 
-<div class="section">
+<div class="section" id="sluzby">
   <h2 class="section-title">Naše služby</h2>
   <div class="container card-grid">
     
@@ -91,7 +113,7 @@
   </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="reference">
     <h2 class="section-title">Zkušenosti zákazníků</h2>
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -117,7 +139,7 @@
     </div>
   </div>
 
-<div class="section">
+<div class="section" id="kontakt">
   <h2 class="section-title">Kontaktujte nás</h2>
   <div class="container">
     <div class="cta">
@@ -166,5 +188,6 @@
 </footer>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
