@@ -19,9 +19,30 @@
     .service-icon {
       font-size: 2rem;
     }
-  </style>
+      nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+    nav a {
+      text-decoration: none;
+    }
+
 </head>
 <body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Domů</a></li>
+      <li><a href="/rekonstrukce-bytu-praha/">Rekonstrukce bytů</a></li>
+      <li><a href="/elektroinstalace-praha/">Elektroinstalace</a></li>
+      <li><a href="/kontakt/">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
   <header class="hero">
     <h1>Profesionální obkladačské práce v Praze – rychle a přesně</h1>
     <p class="lead">Obklady koupelen, kuchyní, podlah i stěn. Rovné spáry, čistá práce.</p>
@@ -235,13 +256,13 @@
     </div>
   </section>
 
-  <footer class="py-4 bg-dark text-white text-center">
-    <div class="container">
-      <p>Kontakt: <a href="mailto:info@example.cz" class="text-white">info@example.cz</a></p>
-      <p>Adresa: Praha</p>
-      <p>Pracovní doba: Po–Pá 8–18 hod</p>
-    </div>
-  </footer>
+  <footer>
+  <p>&copy; 2025 Renovace Praha. Všechna práva vyhrazena.</p>
+  <nav>
+    <a href="/gdpr/">Zásady ochrany osobních údajů</a> |
+    <a href="/kontakt/">Kontakt</a>
+  </nav>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
