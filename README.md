@@ -20,3 +20,5 @@ The site is ready to be served via GitHub Pages. Push the contents of this
 repository to a GitHub repository and enable Pages in the settings. The
 included `CNAME` file shows the custom domain that was used originally; adjust
 or remove it if you wish to use a different domain.
+GitHub Pages automatically serves `404.html` for any unknown route, so a custom
+error page will be displayed when a visitor enters a non-existent URL.
