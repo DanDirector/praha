@@ -106,12 +106,6 @@ body.home .cta {
   background: none;
   padding: 40px 0;
 }
-body.home .footer {
-  background: #1b1e22;
-  color: white;
-  padding: 30px 10px;
-  text-align: center;
-}
 
 .icon-box {
   height: 180px;
@@ -305,11 +299,6 @@ body.omitky .price-table td {
 body.omitky .faq-item {
   margin-bottom: 1rem;
 }
-body.omitky footer {
-  background: #f8f9fa;
-  padding: 20px 0;
-  text-align: center;
-}
 
 /* Zateplení fasád */
 body.fasady .hero {
@@ -321,4 +310,12 @@ body.fasady .hero {
 body.fasady .step {
   display: inline-block;
   margin-right: 10px;
+}
+
+/* Global footer styling */
+.footer {
+  background: #212529; /* Bootstrap bg-dark */
+  color: #f8f9fa;     /* Bootstrap text-light */
+  padding: 30px 10px;
+  text-align: center;
 }
