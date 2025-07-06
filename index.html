@@ -75,6 +75,29 @@
     </div>
   </div>
 </section>
+<!-- CALCULATOR ---------------------------------------------------->
+<section id="calc" class="py-5 bg-white border-top">
+  <div class="container">
+    <h2 class="h4 text-center mb-4">Cколько стоит ваш ремонт?</h2>
+    <form id="calcForm" class="row g-3 justify-content-center">
+      <div class="col-md-3">
+        <label class="form-label">Тип объекта</label>
+        <select id="objType" class="form-select">
+          <option value="flat">Byt</option>
+          <option value="house">Dům</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Plocha (m²)</label>
+        <input type="number" id="area" class="form-control" min="10" required>
+      </div>
+      <div class="col-md-2 d-grid">
+        <button class="btn btn-primary mt-4" type="submit">Spočítat</button>
+      </div>
+    </form>
+    <p id="calcResult" class="h5 text-center mt-4"></p>
+  </div>
+</section>
 
 
 <div class="section" id="sluzby">
@@ -231,5 +254,6 @@
   <a href="https://wa.me/420123456789" class="whatsapp-float d-flex align-items-center justify-content-center" aria-label="WhatsApp Chat" target="_blank">
     <i class="bi bi-whatsapp fs-3 text-white"></i>
   </a>
+  <script src="/assets/js/calc.js"></script>
 </body>
 </html>
