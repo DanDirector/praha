@@ -328,3 +328,9 @@ body.fasady .step {
 .footer a:hover {
   color: #ffffff !important;
 }
+
+.whatsapp-float{
+  position:fixed;bottom:20px;right:20px;width:60px;height:60px;
+  background:#25d366;border-radius:50%;z-index:999;box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+.whatsapp-float:hover{background:#1ebe5d;}
