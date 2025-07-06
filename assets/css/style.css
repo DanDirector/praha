@@ -334,9 +334,12 @@ body.fasady .step {
 .hero p  {font-size:1.125rem;margin-bottom:1.5rem;}
 
 /* features block */
-.features i {display:block;}
-@media (min-width:768px){
-  .features .feature p{font-size:.85rem;}
+.features i {
+  display: block;
+  font-size: 4rem !important;
+}
+.features .feature p {
+  font-size: 1rem !important;
 }
 
 
