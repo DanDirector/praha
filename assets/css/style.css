@@ -328,3 +328,8 @@ body.fasady .step {
 .footer a:hover {
   color: #ffffff !important;
 }
+
+.features i {display:block;}
+@media (min-width:768px){
+  .features .feature p{font-size:.85rem;}
+}
