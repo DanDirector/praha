@@ -1,16 +1,21 @@
-const form = document.getElementById('calcForm');
-const resultEl = document.getElementById('calcResult');
+document.getElementById('calcForm').addEventListener('submit', e => {
+  e.preventDefault();
 
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
   const type = document.getElementById('objType').value;
   const area = parseFloat(document.getElementById('area').value);
+
+  // простая валидация
   if (!area || area < 10) {
-    resultEl.textContent = 'Zadejte platnou plochu.';
+    document.getElementById('calcResult').textContent =
+      'Zadejte platnou plochu (min. 10 m²).';
     return;
   }
-  const rate = type === 'house' ? 30000 : 25000;
-  const price = area * rate;
-  resultEl.textContent = `Orientační cena: ${price.toLocaleString('cs-CZ')} Kč`;
+
+  // базовые ставки, Kč za m²
+  const prices = { flat: 14000, house: 15500 };
+  const estimate = area * (prices[type] || 0);
+
+  document.getElementById('calcResult').innerHTML =
+    `Orientační cena: <strong>${estimate.toLocaleString('cs-CZ')} Kč</strong>`;
 });
 
