@@ -350,3 +350,8 @@ body.fasady .step {
 .service-icon:hover i  {transform:translateY(-2px); opacity:.85;}
 .service-icon span     {font-weight:500; color:#212529;}
 
+.service-card    { background:#fff; border:1px solid #e7e7e7;
+                   border-radius:1rem; transition:transform .2s,box-shadow .2s; }
+.service-card:hover{ transform:translateY(-4px);
+                     box-shadow:0 6px 18px rgba(0,0,0,.05); }
+.service-card i  { color:#0d6efd; }
