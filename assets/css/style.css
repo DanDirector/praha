@@ -346,3 +346,7 @@ body.fasady .step {
 }
 .whatsapp-float:hover{background:#1ebe5d;}
 
+.service-icon i        {color:#0d6efd; transition:transform .2s,opacity .2s;}
+.service-icon:hover i  {transform:translateY(-2px); opacity:.85;}
+.service-icon span     {font-weight:500; color:#212529;}
+
