@@ -328,3 +328,8 @@ body.fasady .step {
 .footer a:hover {
   color: #ffffff !important;
 }
+
+/* hero refresh */
+.hero h1 {font-weight:700;font-size:2.4rem;line-height:1.2;}
+.hero p  {font-size:1.125rem;margin-bottom:1.5rem;}
+
