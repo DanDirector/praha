@@ -397,3 +397,8 @@ body.fasady .step {
 }
 .partner-box img:hover{opacity:1;}
 
+#usp-strip i,
+.features i{transition:color .2s}
+.features .col-6:hover i{color:#0d6efd}
+.features .col-6:hover{transform:translateY(-4px);transition:.2s}
+
