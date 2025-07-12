@@ -367,3 +367,14 @@ body.fasady .step {
     width:14.2857%;
   }
 }
+
+.partner-logo{
+  max-height:70px;
+  width:auto;
+  object-fit:contain;
+  opacity:.85;
+  transition:opacity .2s;
+  display:block;
+  margin-inline:auto;
+}
+.partner-logo:hover{opacity:1;}
