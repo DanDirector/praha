@@ -389,6 +389,7 @@ body.fasady .step {
 }
 .partner-box img{
   max-width:100%;
+  max-width:120px;
   max-height:100%;
   object-fit:contain;
   opacity:.85;
