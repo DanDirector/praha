@@ -367,3 +367,12 @@ body.fasady .step {
     width:14.2857%;
   }
 }
+
+.partner-logo{
+  max-height:60px;           /* единая высота */
+  object-fit:contain;
+  opacity:.8;
+  transition:opacity .2s;
+}
+.partner-logo:hover{opacity:1;}
+
