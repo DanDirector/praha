@@ -378,3 +378,7 @@ body.fasady .step {
   margin-inline:auto;
 }
 .partner-logo:hover{opacity:1;}
+
+.partner-logo.shrink{
+  max-height:55px;   /* чуть меньше основного 70px */
+}
