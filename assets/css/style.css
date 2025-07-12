@@ -1,6 +1,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar-brand img {
+  height: 40px;
+}
+
 
 /* Home page */
 body.home {
