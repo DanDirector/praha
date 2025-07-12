@@ -397,3 +397,7 @@ body.fasady .step {
 }
 .partner-box img:hover{opacity:1;}
 
+
+/* Advantages section headings */
+#vyhody h5 {font-size:1.35rem;font-weight:600;}
+
