@@ -1,21 +1,24 @@
-document.getElementById('calcForm').addEventListener('submit', e => {
-  e.preventDefault();
+const calcForm = document.getElementById('calcForm');
 
-  const type = document.getElementById('objType').value;
-  const area = parseFloat(document.getElementById('area').value);
+if (calcForm) {
+  calcForm.addEventListener('submit', e => {
+    e.preventDefault();
 
-  // простая валидация
-  if (!area || area < 10) {
-    document.getElementById('calcResult').textContent =
-      'Zadejte platnou plochu (min. 10 m²).';
-    return;
-  }
+    const type = document.getElementById('objType').value;
+    const area = parseFloat(document.getElementById('area').value);
 
-  // базовые ставки, Kč za m²
-  const prices = { flat: 14000, house: 15500 };
-  const estimate = area * (prices[type] || 0);
+    // Jednoducha validace vstupu.
+    if (!area || area < 10) {
+      document.getElementById('calcResult').textContent =
+        'Zadejte platnou plochu (min. 10 m²).';
+      return;
+    }
 
-  document.getElementById('calcResult').innerHTML =
-    `Orientační cena: <strong>${estimate.toLocaleString('cs-CZ')} Kč</strong>`;
-});
+    // Zakladni orientacni sazby v Kc za m2.
+    const prices = { flat: 14000, house: 15500 };
+    const estimate = area * (prices[type] || 0);
 
+    document.getElementById('calcResult').innerHTML =
+      `Orientační cena: <strong>${estimate.toLocaleString('cs-CZ')} Kč</strong>`;
+  });
+}
