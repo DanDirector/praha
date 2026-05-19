@@ -28,6 +28,20 @@
 <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="home">
+<a href="/v2/" class="new-version-banner" aria-label="Přejít na novou verzi webu">
+  <span class="new-version-badge">NOVÉ</span>
+  <span class="new-version-text">Vyzkoušejte naši novou verzi webu</span>
+  <span class="new-version-arrow" aria-hidden="true">→</span>
+</a>
+<style>
+  .new-version-banner{display:flex;align-items:center;justify-content:center;gap:.6rem;padding:.65rem 1rem;background:linear-gradient(90deg,#0d6efd 0%,#0a58ca 100%);color:#fff;text-decoration:none;font-weight:500;font-size:.95rem;line-height:1.2;transition:filter .15s ease}
+  .new-version-banner:hover{filter:brightness(1.08);color:#fff;text-decoration:none}
+  .new-version-badge{background:#ffc107;color:#222;font-weight:700;font-size:.72rem;padding:.15rem .5rem;border-radius:999px;letter-spacing:.04em}
+  .new-version-text{}
+  .new-version-arrow{font-weight:700;transition:transform .2s ease}
+  .new-version-banner:hover .new-version-arrow{transform:translateX(4px)}
+  @media (max-width:480px){.new-version-banner{font-size:.85rem;padding:.55rem .75rem;gap:.45rem}}
+</style>
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold d-flex align-items-center" href="/"><img src="/assets/img/branding/logo.png" alt="StavPraha logo" height="40" class="me-2"><span data-company-name>StavPraha</span></a>
