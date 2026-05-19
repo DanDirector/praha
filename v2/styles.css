@@ -814,6 +814,11 @@ section {
   gap: var(--space-4);
   align-items: start;
 }
+.calc-grid > .calc-head {
+  position: sticky;
+  top: 120px;
+  align-self: start;
+}
 .calc-head h2 {
   font-size: clamp(40px, 5vw, 80px);
   font-weight: 700;
@@ -1107,6 +1112,11 @@ section {
   grid-template-columns: 1fr 2fr;
   gap: var(--space-4);
   align-items: start;
+}
+.faq-grid > :first-child {
+  position: sticky;
+  top: 120px;
+  align-self: start;
 }
 .faq-list { border-top: 1px solid var(--fg-faint); }
 .faq-item {
