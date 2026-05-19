@@ -119,6 +119,7 @@
     'Drobné opravy povrchů, malování a dokončovací práce.':
       'Light surface repairs, painting and finishing work.',
     'Zateplení fasád': 'Facade insulation',
+    'Zateplení fasády': 'Facade insulation',
     'Zateplení a fasádní práce podle stavu domu a zvoleného systému.':
       'Thermal insulation and facade work matched to the building.',
     'Štukatérské práce': 'Plastering work',
@@ -502,13 +503,797 @@
     'Kč/m². Nejde o závaznou nabídku.': 'CZK/m². Not a binding offer.',
 
     /* footer "huge" company word stays the same — no entry needed */
+
+    /* ============ subpages — comprehensive translations ============ */
+    'Stránka nebyla nalezena': 'Page not found',
+    'Omlouváme se, ale požadovaná adresa neexistuje.':
+      'Sorry — the requested page doesn’t exist.',
+    'Zpět na úvodní stránku': 'Back to the homepage',
+    'Elektroinstalace v Praze bezpečně a přehledně':
+      'Electrical installation in Prague — safe and transparent',
+    'Od výměny zásuvky po kompletní elektroinstalaci. Rozsah, termín a postup domluvíme podle konkrétní zakázky.':
+      'From a single socket swap to a full wiring job. Scope, schedule and approach are agreed per project.',
+    'Termín zásahu podle domluvy a dostupnosti':
+      'Appointment by agreement and availability',
+    'Jak k elektro pracím přistupujeme': 'How we approach electrical work',
+    'Jasný rozsah prací': 'Clear scope of work',
+    'Termín podle dostupnosti': 'Scheduled by availability',
+    'Bezpečný postup podle zakázky': 'Safe procedure matched to the job',
+    'Odborné úkony dle požadavků': 'Certified work as required',
+    'Elektro práce řešíme podle rozsahu zakázky a požadavků na bezpečné provedení. Revize a odborné úkony se domlouvají podle typu prací.':
+      'We handle electrical work based on project scope and safety requirements. Inspections and certified work are arranged per work type.',
+    'Co služba zahrnuje': 'What the service covers',
+    'Zásuvky a vypínače': 'Sockets and switches',
+    'Jističe a rozvaděče': 'Breakers and distribution boards',
+    'Rozvaděče a základní úpravy rozvodů': 'Distribution boards and basic wiring changes',
+    'Osvětlení a příprava pro rekonstrukci': 'Lighting and pre-renovation prep',
+    'Kdy tato služba dává smysl': 'When this service makes sense',
+    'Při rekonstrukci bytu, koupelny nebo kuchyně':
+      'During an apartment, bathroom or kitchen renovation',
+    'Když potřebujete doplnit zásuvky, vypínače nebo osvětlení':
+      'When you need extra sockets, switches or lighting',
+    'Při přípravě rozvodů pro nové spotřebiče': 'When prepping wiring for new appliances',
+    'Když je potřeba posoudit další postup odborného úkonu':
+      'When you need a certified-work next-step assessment',
+    'Ceník': 'Price list',
+    'Služba': 'Service',
+    'Výměna zásuvky': 'Socket replacement',
+    'od 500 Kč': 'from 500 CZK',
+    'Montáž jističe': 'Breaker installation',
+    'od 800 Kč': 'from 800 CZK',
+    'Odborné úkony a kontrola': 'Certified work and inspection',
+    'individuálně': 'case-by-case',
+    'Cena je orientační a závisí na rozsahu, stavu místa, materiálu a dostupnosti. U elektro prací se přesný postup stanovuje podle typu zakázky a požadavků na bezpečné provedení.':
+      'Prices are indicative and depend on scope, site condition, materials and availability. For electrical work the exact approach is set per project and safety requirements.',
+    'Poptávka': 'Inquiry',
+    'Pošlete popis úkonu, fotky místa a lokalitu v Praze.':
+      'Send a description of the task, site photos and your Prague location.',
+    'Upřesnění rozsahu': 'Scope confirmation',
+    'Domluvíme, co je možné udělat a zda jsou potřeba odborné úkony.':
+      'We agree what can be done and whether certified work is needed.',
+    'Práce provedeme podle domluveného rozsahu a bezpečného postupu.':
+      'We carry out the work per the agreed scope and safe procedure.',
+    'Místo zkontrolujeme, uklidíme a předáme domluvený výsledek.':
+      'We check the site, clean up and hand over the agreed result.',
+    'Potřebujete domluvit elektro práce? Zavolejte nebo napište.':
+      'Need to arrange electrical work? Call or write.',
+    'Domluvit termín': 'Book a slot',
+    'Férovou domluvu před začátkem prací': 'A fair agreement before work starts',
+    'Průběžnou komunikaci během realizace': 'Ongoing communication during the work',
+    'Čistší předání prostoru': 'A cleaner handover',
+    'Jasnější představu o ceně a rozsahu': 'A clearer view of price and scope',
+    'Často kladené dotazy': 'Frequently asked questions',
+    'Jak se určuje rozsah elektro prací?':
+      'How is the scope of electrical work determined?',
+    'Rozsah prací domluvíme předem podle popisu zakázky, stavu instalace a požadavků na bezpečné provedení.':
+      'We agree the scope in advance based on the job description, the current installation and safety requirements.',
+    'Řešíte revize a odborné úkony?': 'Do you handle inspections and certified work?',
+    'Revize a odborné úkony řešíme podle typu zakázky a požadavků. Konkrétní postup potvrdíme po upřesnění rozsahu.':
+      'Inspections and certified work depend on project type and requirements. The exact procedure is confirmed once scope is clarified.',
+    'Můžete připravit elektroinstalaci při rekonstrukci?':
+      'Can you prepare wiring during a renovation?',
+    'Ano, podle rozsahu zakázky lze řešit zásuvky, vypínače, osvětlení, rozvaděče a přípravu pro další práce.':
+      'Yes — depending on scope we cover sockets, switches, lighting, distribution boards and prep for follow-on work.',
+    'Jak se určuje cena?': 'How is the price determined?',
+    'Cena závisí na rozsahu, přístupu k rozvodům, potřebném materiálu a tom, zda jde o drobný úkon nebo větší část rekonstrukce.':
+      'Price depends on scope, wiring access, materials needed and whether it’s a small task or part of a larger renovation.',
+    'Materiál lze dodat po dohodě, pokud odpovídá požadavkům zakázky a bezpečnému provedení.':
+      'Materials can be supplied by agreement, provided they meet the project’s safety requirements.',
+    'Ano, rozsah prací, fakturaci a případnou záruku domlouváme podle typu zakázky.':
+      'Yes — scope, invoicing and any warranty are arranged per project type.',
+    'Hodinový manžel v Praze pro drobné opravy a montáže':
+      'Handyman by the hour in Prague — small repairs and assembly',
+    'Montáže, vrtání, seřízení, drobné opravy a pomoc v bytě. Rozsah, orientační cenu a termín podle domluvy a aktuální dostupnosti upřesníme předem.':
+      'Mounting, drilling, adjusting, small repairs and help around the home. Scope, rough price and timing are agreed up front based on availability.',
+    'Montáž poliček, TV, obrazů': 'Mounting shelves, TVs and pictures',
+    'Výměna baterií, žárovek a drobných prvků podle rozsahu':
+      'Swapping faucets, bulbs and small parts as needed',
+    'Montáž nábytku (IKEA, Jysk, aj.)': 'Furniture assembly (IKEA, Jysk, etc.)',
+    'Opravy kapajících kohoutků': 'Fixing dripping faucets',
+    'Seřízení oken a dveří': 'Adjusting windows and doors',
+    'Vrtání, hmoždinky a drobné montážní úkony':
+      'Drilling, anchors and small mounting tasks',
+    'Těsnění, silikonování, malá malba': 'Sealing, silicone and small touch-up painting',
+    'Některé elektroinstalační, instalatérské nebo odborné zásahy mohou vyžadovat specialistu. V takovém případě doporučíme bezpečný další postup.':
+      'Some electrical, plumbing or certified work may require a specialist. In that case we’ll recommend the safe next step.',
+    'Termín podle domluvy a aktuální dostupnosti':
+      'Timing by agreement and current availability',
+    'Čas příjezdu podle domluveného termínu': 'Arrival time per the booked slot',
+    'Orientační cena po popisu úkonu': 'Rough price after the task is described',
+    'Nářadí a základní materiál podle domluvy': 'Tools and basic materials by agreement',
+    'Úklid místa po dokončení práce': 'Site clean-up after the work is done',
+    'Kdy se hodinový manžel hodí': 'When a handyman is the right call',
+    'Když potřebujete rychle vyřešit více drobných úkonů najednou':
+      'When you need to knock out several small tasks at once',
+    'Při montáži nábytku, poliček, garnýží nebo doplňků':
+      'For furniture, shelves, curtain rails or accessories',
+    'Před pronájmem, prodejem nebo nastěhováním do bytu':
+      'Before renting out, selling or moving into an apartment',
+    'Když není jasné, zda stačí drobná oprava nebo odborný zásah':
+      'When it’s unclear whether a small fix or certified work is needed',
+    'Úkon': 'Task',
+    'Cena od (Kč)': 'Price from (CZK)',
+    'Výměna baterie': 'Faucet replacement',
+    'Montáž nábytku': 'Furniture assembly',
+    'od 700 Kč': 'from 700 CZK',
+    'Hodina práce (univerzální)': 'Hour of work (general)',
+    'od 650 Kč': 'from 650 CZK',
+    'Výjezd mimo Prahu': 'Travel outside Prague',
+    'Cena je orientační a závisí na rozsahu, stavu místa, materiálu a dostupnosti.':
+      'Prices are indicative and depend on scope, site condition, materials and availability.',
+    'Průběh objednávky': 'How the booking works',
+    'Pošlete popis úkonů, fotky a lokalitu.':
+      'Send a description of the tasks, photos and location.',
+    'Domluvíme orientační cenu, materiál a vhodný termín.':
+      'We agree a rough price, materials and a suitable slot.',
+    'V domluveném termínu provedeme sjednané práce.':
+      'At the agreed time we carry out the work.',
+    'Zkontrolujeme výsledek, uklidíme místo a předáme hotovou práci.':
+      'We check the result, clean up and hand over the finished work.',
+    'Je potřeba připravit něco?': 'Do I need to prepare anything?',
+    'Stačí zajistit přístup k místu opravy.':
+      'Just make sure we have access to the repair site.',
+    'Máte i náhradní díly?': 'Do you provide spare parts?',
+    'Základní materiál lze domluvit předem. U specifických dílů je lepší poslat fotku nebo název výrobku.':
+      'Basic materials can be agreed in advance. For specific parts it helps to send a photo or product name.',
+    'Možnosti platby domluvíme předem podle typu zakázky a fakturace.':
+      'Payment options are agreed up front based on job type and invoicing.',
+    'Jak se domlouvá termín?': 'How is the appointment arranged?',
+    'Termín závisí na typu úkonu, lokalitě a aktuální dostupnosti. Vždy ho potvrdíme při objednávce.':
+      'Timing depends on the task, location and current availability. It’s always confirmed at booking.',
+    'Děláte i elektro a instalatérské práce?':
+      'Do you also do electrical and plumbing work?',
+    'Drobné úkony lze posoudit podle situace. Některé elektroinstalační, instalatérské nebo odborné zásahy vyžadují specialistu.':
+      'Small tasks can be assessed case-by-case. Some electrical, plumbing or certified work needs a specialist.',
+    'Jak nejlépe popsat poptávku?': 'How should I describe the request?',
+    'Napište seznam úkonů, lokalitu, přibližný termín a přiložte fotky místa. Pomůže to s orientační cenou i přípravou materiálu.':
+      'Send a task list, the location, a rough date and photos of the site. It helps with the rough price and material prep.',
+    'Potřebujete drobnou opravu nebo montáž?': 'Need a small repair or assembly job?',
+    'Pošlete fotky a krátký popis. Domluvíme rozsah, orientační cenu a termín podle aktuální dostupnosti.':
+      'Send photos and a brief description. We’ll agree scope, a rough price and timing based on availability.',
+    'bytů, koupelen a domů': 'apartments, bathrooms and houses',
+    'v Praze bez zbytečného chaosu': 'in Prague — without the chaos',
+    'Přehledný': 'Clear',
+    'rozpočet': 'budget',
+    'Jasný': 'Transparent',
+    'průběhu': 'progress',
+    'Záruka': 'Warranty',
+    'Kosmetické opravy v Praze podle domluveného rozsahu':
+      'Cosmetic repairs in Prague — to the agreed scope',
+    'Malování, drobné dokončovací práce a úklid řešíme podle stavu prostoru, rozsahu prací a aktuální dostupnosti.':
+      'Painting, light finishing work and clean-up — handled based on the space, scope and availability.',
+    'Materiál a úklid podle dohody': 'Materials and clean-up by agreement',
+    'Materiál lze dodat po dohodě, případně pracujeme s materiálem klienta. Rozsah úklidu domluvíme předem.':
+      'Materials can be supplied by agreement, or we can use yours. Clean-up scope is agreed up front.',
+    'Co může být součástí prací': 'What the work can include',
+    'Malování stěn a stropů': 'Painting walls and ceilings',
+    'Drobné opravy prasklin a nerovností': 'Small crack and unevenness repairs',
+    'Tmelení, broušení a příprava podkladu': 'Filling, sanding and surface prep',
+    'Montáž lišt, krytek a drobných doplňků':
+      'Installing trims, covers and small accessories',
+    'Lokální opravy po stěhování nebo nájemnících':
+      'Localised fixes after a move-out or tenants',
+    'Zakrytí ploch a závěrečný úklid podle rozsahu':
+      'Surface protection and final clean-up per scope',
+    'Kdy kosmetické opravy dávají smysl': 'When cosmetic repairs make sense',
+    'Před pronájmem nebo prodejem bytu': 'Before renting out or selling an apartment',
+    'Po stěhování, montážích nebo menší rekonstrukci':
+      'After a move, mounting work or a small renovation',
+    'Když není potřeba kompletní rekonstrukce': 'When a full renovation isn’t needed',
+    'Pro rychlé sjednocení vzhledu místnosti': 'For a quick unified room refresh',
+    'Balíčky cen': 'Price packages',
+    'Malý pokoj': 'Small room',
+    'od 4 500 Kč': 'from 4,500 CZK',
+    'Střední pokoj': 'Medium room',
+    'od 6 900 Kč': 'from 6,900 CZK',
+    'Velký pokoj': 'Large room',
+    'od 9 900 Kč': 'from 9,900 CZK',
+    'Cena je orientační a závisí na rozsahu, stavu místa, materiálu a dostupnosti. Materiál řešíme po dohodě podle konkrétní zakázky.':
+      'Prices are indicative and depend on scope, site condition, materials and availability. Materials are handled by agreement per project.',
+    'Ukázky prací': 'Work samples',
+    'Konfigurátor ceny': 'Price configurator',
+    'Pošlete popis místnosti, fotky a požadovaný výsledek.':
+      'Send a description of the room, photos and the desired result.',
+    'Domluvíme rozsah oprav, materiál, úklid a orientační cenu.':
+      'We agree on the scope of repairs, materials, clean-up and a rough price.',
+    'Provedeme sjednané opravy, malování nebo dokončovací práce.':
+      'We carry out the agreed repairs, painting or finishing work.',
+    'Zkontrolujeme výsledek a předáme uklizený prostor podle domluvy.':
+      'We check the result and hand over a cleaned space as agreed.',
+    'Časté dotazy': 'Frequently asked questions',
+    'Termín podle rozsahu prací a aktuální dostupnosti upřesníme po popisu zakázky.':
+      'Timing is confirmed based on scope and current availability once the job is described.',
+    'Můžete dodat materiál?': 'Can you supply the materials?',
+    'Materiál lze dodat po dohodě, případně použít materiál připravený klientem. Rozsah prací domluvíme předem.':
+      'Materials can be supplied by agreement, or we use yours. The scope is agreed in advance.',
+    'Jak řešíme materiál?': 'How are materials handled?',
+    'Materiál řešíme po dohodě. Můžeme pracovat s vaším materiálem nebo domluvit základní materiál podle rozsahu zakázky.':
+      'Materials are handled by agreement. We can use yours, or agree on basic materials based on the scope.',
+    'Stačí poslat fotky?': 'Is sending photos enough?',
+    'Pro orientační domluvu ano. U většího rozsahu může být potřeba zaměření nebo osobní konzultace.':
+      'For a rough agreement, yes. For larger scope a site survey or in-person consultation may be needed.',
+    'Děláte opravy po nájemnících?': 'Do you do repairs after tenants?',
+    'Ano, často řešíme malování, lokální opravy, lišty, krytky a úpravy před dalším pronájmem.':
+      'Yes — painting, spot repairs, trims, covers and tweaks before the next tenancy are a common job.',
+    'Co ovlivňuje cenu?': 'What affects the price?',
+    'Rozsah prací, stav podkladu, počet vrstev, materiál, dostupnost prostoru a požadovaný termín.':
+      'Scope, substrate condition, number of coats, materials, site access and the requested deadline.',
+    'Obkladačské práce v Praze s jasným rozsahem':
+      'Tiling work in Prague — with a clear scope',
+    'Obklady koupelen, kuchyní, podlah i stěn. Rozsah prací, materiál a postup domluvíme předem.':
+      'Tiling for bathrooms, kitchens, floors and walls. Scope, materials and approach are agreed up front.',
+    'Co obkladačské práce zahrnují': 'What tiling work covers',
+    'Pokládka obkladů': 'Wall tiling',
+    'Koupelna, kuchyň, WC': 'Bathroom, kitchen, WC',
+    'Pokládka dlažby': 'Floor tiling',
+    'Rekonstrukce sprchových koutů': 'Shower enclosure renovations',
+    'Výměna staré dlažby': 'Replacing old floor tiles',
+    'Pokládka mozaiky': 'Mosaic tiling',
+    'Opravy po haváriích': 'Repairs after leaks or damage',
+    'Spárování, silikonování': 'Grouting and silicone work',
+    'Výhody našich služeb': 'Why work with us',
+    'Jasný rozsah prací před začátkem': 'Clear scope before work starts',
+    'Příprava podkladu podle stavu místnosti': 'Substrate prep matched to the room',
+    'Domluva skladby, spár a detailů': 'Agreed layout, joints and detailing',
+    'Materiál lze dodat po dohodě nebo pracovat s vaším':
+      'Materials by agreement, or we use yours',
+    'Smlouva, faktura a záruka dle typu prací a smlouvy':
+      'Contract, invoice and warranty per work type',
+    'Při rekonstrukci koupelny, WC nebo kuchyně':
+      'During a bathroom, WC or kitchen renovation',
+    'Když je potřeba vyměnit starou dlažbu nebo obklad':
+      'When old floor or wall tile needs replacing',
+    'U sprchových koutů, soklů a detailů kolem sanity':
+      'For shower enclosures, plinths and fixture details',
+    'Při dokončovacích pracích po rekonstrukci bytu':
+      'For finishing work after an apartment renovation',
+    'Typ práce': 'Work type',
+    'Cena od (Kč/m²)': 'Price from (CZK/m²)',
+    'Pokládka obkladu standardního': 'Standard wall tiling',
+    'Mozaika / malý formát': 'Mosaic / small format',
+    'Velkoformátové dlaždice': 'Large-format tiles',
+    'Odstranění staré dlažby': 'Removal of old tiles',
+    'Spárování / silikonování': 'Grouting / silicone',
+    'Cena je orientační a závisí na rozsahu, stavu místa, materiálu a dostupnosti. U obkladů ji ovlivňuje hlavně formát dlažby, stav podkladu, řezání, spárování a množství detailů.':
+      'Prices are indicative and depend on scope, site condition, materials and availability. For tiling, the main drivers are tile format, substrate, cutting, grouting and detail count.',
+    'Náš postup práce': 'How we work',
+    'Pošlete popis, rozměry a ideálně fotky místa.':
+      'Send a description, measurements and ideally site photos.',
+    'Domluvíme podklad, formát obkladu, detaily a orientační cenu.':
+      'We agree the substrate, tile format, detailing and a rough price.',
+    'Připravíme podklad, provedeme pokládku, spárování a silikonování.':
+      'We prep the substrate, lay tiles, grout and silicone.',
+    'Zkontrolujeme detaily a předáme hotovou práci.':
+      'We check the details and hand over the finished work.',
+    'Časté otázky': 'Frequently asked questions',
+    'Jaký materiál doporučujete?': 'Which materials do you recommend?',
+    'Materiál lze dodat po dohodě nebo pracovat s materiálem klienta. Výběr vždy přizpůsobíme rozpočtu a technickým požadavkům.':
+      'Materials can be supplied by agreement or you can supply them. The choice is always matched to budget and technical requirements.',
+    'Můžu dodat vlastní obklady?': 'Can I supply my own tiles?',
+    'Ano, pokud je materiál vhodný pro daný podklad a rozsah prací. Detaily ověříme před zahájením.':
+      'Yes — provided the material suits the substrate and scope. Details are verified before starting.',
+    'Kolik dní trvá pokládka?': 'How many days does tiling take?',
+    'Termín podle rozsahu prací a aktuální dostupnosti. Přesný postup stanovíme po zaměření a kontrole podkladu.':
+      'Timing depends on scope and availability. The exact plan is set after a site survey and substrate check.',
+    'Jak připravit místnost?': 'How should I prepare the room?',
+    'Odstranit nábytek a staré krytiny, zbytek zajistíme my.':
+      'Remove furniture and old coverings — we take care of the rest.',
+    'Samozřejmě, obdržíte řádnou fakturu i smlouvu o dílo.':
+      'Of course — you’ll receive a proper invoice and a works contract.',
+    'Co nejvíc ovlivňuje cenu obkladačských prací?':
+      'What drives tiling-work prices the most?',
+    'Cena se mění podle formátu obkladů, rovnosti podkladu, množství řezů, rohů, lišt, spárování, silikonování a dostupnosti místa.':
+      'Price varies with tile format, substrate flatness, the number of cuts, corners, trims, grouting, silicone work and site access.',
+    'Chcete upřesnit rozsah obkladačských prací?':
+      'Want to nail down the scope of tiling work?',
+    'Pošlete nám fotky, rozměry a krátký popis. Řekneme vám, jaký postup a orientační rozpočet dávají smysl.':
+      'Send photos, measurements and a short description. We’ll tell you what approach and rough budget make sense.',
+    'Tato stránka stručně vysvětluje, jak pracujeme s údaji, které nám pošlete přes kontaktní formulář, e-mail, telefon nebo WhatsApp.':
+      'This page briefly explains how we handle data you send via the contact form, e-mail, phone or WhatsApp.',
+    'Údaje výše se doplňují z centrální konfigurace webu. Pokud jsou některé údaje zatím uvedené jako placeholder, musí je před spuštěním doplnit provozovatel webu.':
+      'The details above are pulled from the site’s central config. Any placeholder values must be filled in by the site operator before going live.',
+    'Jaké údaje zpracováváme': 'What data we process',
+    'Pokud odešlete poptávku nebo nás kontaktujete, můžeme pracovat zejména s těmito údaji:':
+      'If you send an inquiry or contact us, we may process the following data:',
+    'jméno,': 'name,',
+    'typ služby, o kterou máte zájem,': 'the type of service you’re interested in,',
+    'popis zakázky, lokalita, přibližná plocha a požadovaný termín,':
+      'job description, location, approximate area and desired timing,',
+    'fotografie prostoru, pokud je dobrovolně přiložíte,':
+      'photos of the space (if you choose to attach them),',
+    'obsah další komunikace.': 'the contents of further correspondence.',
+    'Proč údaje používáme': 'Why we use the data',
+    'Údaje používáme za účelem odpovědi na vaši poptávku, domluvy dalšího postupu, přípravy orientační kalkulace a běžné komunikace související se zakázkou.':
+      'We use the data to reply to your inquiry, agree on next steps, prepare a rough estimate and handle ordinary project-related communication.',
+    'Jak dlouho údaje uchováváme': 'How long we keep the data',
+    'Údaje uchováváme po dobu potřebnou k vyřízení poptávky a následné komunikaci. Pokud ze zakázky vznikne smluvní nebo účetní vztah, mohou být některé údaje uchovány déle podle zákonných povinností. Údaje nemažeme ani neuchováváme automaticky podle pevného veřejného termínu bez ohledu na situaci.':
+      'We keep the data for as long as needed to handle the inquiry and follow-up. If a contractual or accounting relationship arises, some data may be retained longer to meet legal obligations. We don’t auto-delete or auto-retain data on a fixed public schedule regardless of context.',
+    'Komu údaje předáváme': 'Who we share the data with',
+    'Osobní údaje neprodáváme. V nezbytném rozsahu je můžeme sdílet s osobami, které pomáhají se zpracováním poptávky, technickým provozem webu nebo realizací zakázky. Vždy jen v rozsahu potřebném pro daný účel.':
+      'We don’t sell personal data. We may share it, only to the extent necessary, with people who help process the inquiry, run the site technically or carry out the project — always only as much as the purpose requires.',
+    'Na webu momentálně nejsou nastavené analytické nebo reklamní měřicí skripty. Web může používat běžné technické prvky potřebné pro načtení stránky, zobrazení fontů, knihoven a odeslání komunikace přes odkazy na telefon, e-mail nebo WhatsApp.':
+      'The site currently has no analytics or advertising tracking. It may use ordinary technical elements needed to load the page, render fonts and libraries, and send messages via phone, e-mail or WhatsApp links.',
+    'Pokud bude v budoucnu přidána analytika nebo reklamní měření, měla by být tato stránka aktualizována a podle potřeby doplněna i cookie lišta.':
+      'If analytics or ad tracking are added later, this page should be updated and a cookie banner added if needed.',
+    'Vaše práva': 'Your rights',
+    'V souvislosti s osobními údaji se na nás můžete obrátit zejména s žádostí o:':
+      'In relation to personal data you can contact us in particular to request:',
+    'informaci, jaké údaje o vás zpracováváme,':
+      'information about what data we process about you,',
+    'opravu nepřesných údajů,': 'correction of inaccurate data,',
+    'výmaz údajů, pokud už nejsou potřeba,': 'deletion of data that is no longer needed,',
+    'omezení zpracování,': 'restriction of processing,',
+    'námitku proti zpracování, pokud k tomu máte důvod.':
+      'objection to processing if you have grounds for it.',
+    'Pro dotazy k ochraně osobních údajů napište na': 'For privacy questions, write to',
+    'Tento text je základní informační stránka pro lead-generation web. Nejde o právní poradenství a před ostrým spuštěním by ji měl zkontrolovat provozovatel nebo právník podle skutečného fungování firmy.':
+      'This is a basic information page for a lead-generation site. It is not legal advice; before go-live it should be reviewed by the operator or a lawyer based on how the company actually operates.',
+    'Rekonstrukce bytů v Praze': 'Apartment renovations in Prague',
+    'Kompletní i částečné rekonstrukce bytů s přehledným rozpočtem, koordinací jednotlivých řemesel a předáním hotové práce.':
+      'Full or partial apartment renovations — clear budget, trades coordinated under one roof and a proper handover.',
+    'Přehledný rozpočet': 'Clear budget',
+    'Koordinace řemeslníků': 'Tradesperson coordination',
+    'Smlouva a jasný rozsah prací': 'Contract and a clear scope of work',
+    'Fotodokumentace průběhu': 'Progress photo documentation',
+    'Záruka dle typu prací': 'Warranty matched to the work type',
+    'Co může zahrnovat rekonstrukce bytu': 'What an apartment renovation can include',
+    'Bourací práce a příprava prostoru': 'Demolition and space prep',
+    'Elektroinstalace, voda a odpady podle potřeby': 'Wiring, water and drains as needed',
+    'Omítky, štuky a malování': 'Plaster, stucco and painting',
+    'Podlahy, podklady a lišty': 'Floors, underlays and trims',
+    'Koupelna a samostatné WC': 'Bathroom and separate WC',
+    'Kuchyňská příprava pro linku a spotřebiče':
+      'Kitchen prep for cabinets and appliances',
+    'Dveře, zárubně, lišty a dokončovací práce': 'Doors, frames, trims and finishing work',
+    'Koordinace profesí, úklid a předání bytu':
+      'Coordinating trades, clean-up and apartment handover',
+    'Typy bytů': 'Apartment types',
+    'Panelový byt': 'Panel-block apartment',
+    'Cihlový byt': 'Brick-built apartment',
+    'Byt k pronájmu': 'Rental apartment',
+    'Investiční byt': 'Investment apartment',
+    'Orientační ceny': 'Indicative prices',
+    'Poznámka': 'Note',
+    'Částečná rekonstrukce': 'Partial renovation',
+    'od 3 500 Kč/m²': 'from 3,500 CZK/m²',
+    'Vybrané místnosti, povrchy, podlahy, malování nebo dílčí úpravy':
+      'Selected rooms, surfaces, floors, painting or partial changes',
+    'od 8 000 Kč/m²': 'from 8,000 CZK/m²',
+    'Více profesí, rozvody, koupelna, podlahy a dokončovací práce':
+      'Multiple trades, wiring, bathroom, floors and finishing work',
+    'Rekonstrukce na klíč': 'Turnkey renovation',
+    'Rozpočet podle stavu bytu, rozsahu prací a zvolených materiálů':
+      'Budget based on the apartment’s condition, scope and chosen materials',
+    'Uvedené částky jsou pouze orientační. Přesná cena závisí na stavu bytu, rozsahu prací, materiálech a možnostech realizace.':
+      'The figures shown are indicative only. The exact price depends on the apartment, scope, materials and how the work can be executed.',
+    'Co je dobré vědět před rekonstrukcí bytu':
+      'Things worth knowing before an apartment renovation',
+    'U starších bytů může cenu ovlivnit stav elektroinstalace, vody a odpadů.':
+      'In older apartments, the state of wiring, water and drains can affect the price.',
+    'U panelových bytů bývá důležité řešit bytové jádro, hluk a návaznost prací.':
+      'In panel apartments, the prefab bathroom core, noise and trade sequencing matter.',
+    'U bytů k pronájmu často dává smysl praktičtější a odolnější řešení.':
+      'For rental apartments, a more practical and durable solution often makes sense.',
+    'Přesný rozsah se nejlépe stanoví po fotkách, konzultaci nebo zaměření.':
+      'The exact scope is best set after photos, a consultation or a site survey.',
+    'Co může být v ceně a co se řeší zvlášť':
+      'What can be in the price and what is handled separately',
+    'Obvykle může zahrnovat': 'Usually included',
+    'Příprava podkladů': 'Substrate prep',
+    'Podlahy, omítky, malování': 'Floors, plaster, painting',
+    'Individuálně podle dohody': 'Case-by-case by agreement',
+    'Sanita a vybavení': 'Bathroom fixtures and equipment',
+    'Dveře a zárubně': 'Doors and door frames',
+    'Kuchyňská linka': 'Kitchen cabinetry',
+    'Nadstandardní materiály': 'Premium materials',
+    'Pošlete popis bytu, rozsah prací a ideálně fotografie současného stavu.':
+      'Send a description of the apartment, the scope of work and ideally photos of the current state.',
+    'Upřesníme očekávání, možnosti, priority a orientační rozsah prací.':
+      'We’ll clarify expectations, options, priorities and a rough scope of work.',
+    'Zaměření': 'Site survey',
+    'Podle potřeby ověříme stav bytu, rozvody, podklady a přístup.':
+      'As needed we check the apartment’s condition, wiring, substrates and access.',
+    'Rozpočet': 'Budget',
+    'Připravíme rozpočet a domluvíme, co je a není součástí zakázky.':
+      'We prepare a budget and agree what is and isn’t part of the job.',
+    'Koordinujeme návaznosti profesí a průběžně komunikujeme postup.':
+      'We coordinate the trades and keep you posted on progress.',
+    'Po kontrole předáme hotový prostor a domluvené podklady k zakázce.':
+      'After inspection we hand over the finished space and any agreed documentation.',
+    'Ukázky bytových řešení': 'Apartment-design samples',
+    'Obytný prostor po modernizaci': 'Living space after modernisation',
+    'Interiér bytu po rekonstrukci': 'Apartment interior post-renovation',
+    'Podlahy, nábytek a dokončovací detaily': 'Floors, furniture and finishing details',
+    'Často kladené otázky': 'Frequently asked questions',
+    'Pošlete nám fotky bytu a popis prací':
+      'Send us photos of the apartment and a description of the work',
+    'Podle základních informací vám řekneme, jaký postup dává smysl a co bude potřeba upřesnit.':
+      'Based on the basics we’ll tell you what approach makes sense and what still needs to be clarified.',
+    'Rekonstrukce rodinných domů v Praze a okolí':
+      'Family-house renovations in Prague and around',
+    'Kompletní i částečné úpravy domů s přehledným rozsahem prací, rozpočtem a postupem od zaměření po předání.':
+      'Full or partial house renovations — clear scope, budget and process from site survey to handover.',
+    'Smlouva a rozsah prací': 'Contract and scope of work',
+    'Koordinace profesí': 'Trade coordination',
+    'Proč řešit rekonstrukci s námi?': 'Why renovate with us?',
+    'Stará elektroinstalace a špatné rozvody?': 'Old wiring and bad utility runs?',
+    'Navrhneme moderní řešení.': 'We’ll propose a modern fix.',
+    'Nedostatek času na koordinaci řemeslníků?': 'No time to coordinate trades?',
+    'Postaráme se o vše od A do Z.': 'We handle it end to end.',
+    'Obavy z navýšení ceny?': 'Worried the price will balloon?',
+    'Připravíme přehledný rozpočet a transparentní postup.':
+      'We prepare a clear budget and a transparent process.',
+    'Úvodní poptávka': 'Initial inquiry',
+    'Pošlete základní informace o domě, fotky a představu o rozsahu.':
+      'Send basic info about the house, photos and your idea of the scope.',
+    'Konzultace a prohlídka': 'Consultation and walk-through',
+    'Upřesníme technický stav, priority, přístup a návaznosti prací.':
+      'We clarify the technical state, priorities, access and trade dependencies.',
+    'Návrh rozsahu prací': 'Proposed scope of work',
+    'Sepíšeme, co je potřeba řešit a co může počkat na další etapu.':
+      'We write up what needs doing now and what can wait for a later phase.',
+    'Orientační rozpočet': 'Indicative budget',
+    'Připravíme rozpočet podle domluveného rozsahu, materiálů a dostupnosti.':
+      'We prepare a budget based on agreed scope, materials and availability.',
+    'Realizace po etapách': 'Phased delivery',
+    'Práce koordinujeme podle návaznosti profesí a stavu domu.':
+      'We coordinate the work based on trade sequencing and the house’s condition.',
+    'Kontrola, úklid a předání': 'Inspection, clean-up and handover',
+    'Hotové práce projdeme, uklidíme a předáme podle domluveného rozsahu.':
+      'We walk through the completed work, clean up and hand over per the agreed scope.',
+    'Co může zahrnovat rekonstrukce domu': 'What a house renovation can include',
+    'Voda a topení': 'Water and heating',
+    'Co nejčastěji řešíme u rodinných domů': 'What we most often tackle in family houses',
+    'Elektroinstalace, voda a topení podle stavu domu':
+      'Wiring, water and heating based on the house’s condition',
+    'Koupelny, WC a kuchyňské přípravy': 'Bathrooms, WCs and kitchen prep',
+    'Omítky, štuky, podlahy a malování': 'Plaster, stucco, floors and painting',
+    'Zateplení a fasádní práce podle rozsahu': 'Insulation and facade work as required',
+    'Dokončovací práce a úpravy interiéru': 'Finishing work and interior tweaks',
+    'Příprava domu k bydlení nebo pronájmu':
+      'Getting the house ready to live in or rent out',
+    'Orientační cena rekonstrukce': 'Indicative renovation price',
+    'Výpočet je pouze orientační. Přesná cena závisí na stavu domu, rozsahu prací, materiálech a návaznosti jednotlivých profesí.':
+      'The figure is indicative only. The actual price depends on the house, scope, materials and trade sequencing.',
+    'Co ovlivňuje cenu rekonstrukce domu': 'What drives a house-renovation price',
+    'Technický stav domu': 'Technical state of the house',
+    'Rozsah bouracích prací': 'Scope of demolition',
+    'Stav rozvodů': 'State of the utility runs',
+    'Plocha a počet místností': 'Area and number of rooms',
+    'Typ materiálů': 'Material grade',
+    'Návaznost profesí': 'Trade sequencing',
+    'Chcete rekonstrukci domu naplánovat přehledně?':
+      'Want to plan your house renovation cleanly?',
+    'Jak dlouho trvá rekonstrukce?': 'How long does a renovation take?',
+    'Délka rekonstrukce závisí na velikosti domu, rozsahu prací, stavu rozvodů, dostupnosti materiálu a návaznosti jednotlivých profesí. Termín proto upřesňujeme po konzultaci a zaměření.':
+      'Duration depends on the size of the house, scope, the state of utility runs, material availability and trade sequencing. We confirm timing after consultation and a site survey.',
+    'Zajišťujete i design?': 'Do you also handle design?',
+    'Podle rozsahu zakázky můžeme pomoci s návrhem řešení, výběrem materiálů nebo koordinací navazujících prací.':
+      'Depending on scope we can help with concept design, material selection or coordination of follow-on work.',
+    'Plánujete rekonstrukci domu?': 'Planning a house renovation?',
+    'Pošlete nám základní informace o domě, fotky a představu o rozsahu. Navrhneme další postup.':
+      'Send us basic info about the house, photos and your idea of the scope. We’ll propose next steps.',
+    'Rekonstrukce kanceláří a komerčních prostor v Praze':
+      'Office and commercial-space renovations in Prague',
+    'Úpravy kanceláří a komerčních prostor s jasným harmonogramem a ohledem na provoz.':
+      'Office and commercial-space changes with a clear schedule and respect for ongoing operations.',
+    'Klíčové výhody': 'Key advantages',
+    'Jasný harmonogram': 'Clear schedule',
+    'Možnost etapové realizace': 'Phased delivery option',
+    'Práce podle provozu klienta': 'Work scheduled around your operations',
+    'Příčky a drobné stavební úpravy': 'Partitions and small construction changes',
+    'Elektro a osvětlení podle potřeby': 'Electrical and lighting as needed',
+    'Podlahy a podkladové vrstvy': 'Floors and underlays',
+    'Malování a povrchové úpravy': 'Painting and surface finishing',
+    'Obklady a zázemí': 'Tiling and back-of-house',
+    'Montáže': 'Mounting and assembly',
+    'Dokončovací práce': 'Finishing work',
+    'Pro jaké prostory se služba hodí': 'Which spaces this service suits',
+    'Coworkingové prostory': 'Coworking spaces',
+    'Menší gastro / zázemí podle rozsahu': 'Smaller hospitality / back-of-house per scope',
+    'Co firmy nejčastěji řeší': 'What companies most often need',
+    'Potřeba rychle upravit prostor před otevřením':
+      'Need to fit out a space quickly before opening',
+    'Omezení provozu během prací': 'Operational constraints during the work',
+    'Koordinace více profesí': 'Coordinating multiple trades',
+    'Čisté předání prostoru': 'A clean handover',
+    'Úpravy podle rozpočtu': 'Changes tailored to the budget',
+    'Jak minimalizujeme omezení provozu': 'How we minimise operational disruption',
+    'U komerčních prostor je důležité plánovat práce tak, aby měly co nejmenší dopad na provoz klienta.':
+      'In commercial spaces it’s key to plan the work for the smallest possible impact on client operations.',
+    'Práce lze plánovat po etapách.': 'The work can be planned in phases.',
+    'Harmonogram se domlouvá předem.': 'The schedule is agreed in advance.',
+    'Některé práce lze řešit mimo hlavní provozní dobu podle možností.':
+      'Some work can be done outside main operating hours where possible.',
+    'Rozsah a termíny se potvrzují podle konkrétní zakázky.':
+      'Scope and timing are confirmed per project.',
+    'Lze práce rozdělit na etapy?': 'Can the work be split into phases?',
+    'Ano, u kanceláří a provozoven často dává smysl rozdělit práce po částech, aby se prostor mohl používat alespoň v omezeném režimu.':
+      'Yes — for offices and venues it often makes sense to split the work so the space stays at least partly usable.',
+    'Můžete pracovat večer nebo o víkendu?': 'Can you work evenings or weekends?',
+    'Podle rozsahu a pravidel objektu lze domluvit i méně rušivé termíny mimo běžnou provozní špičku.':
+      'Depending on scope and building rules, less-disruptive slots outside peak hours can be agreed.',
+    'Zajistíte více profesí najednou?': 'Can you coordinate several trades at once?',
+    'Ano, u větších úprav je klíčová koordinace řemesel, návaznosti prací, materiálu a předávání informací.':
+      'Yes — for larger jobs, coordinating trades, sequencing, materials and information flow is key.',
+    'Pro jak velké prostory je služba vhodná?':
+      'How large a space is the service suitable for?',
+    'Služba je vhodná pro menší kanceláře, celé administrativní prostory, salony, ordinace, obchody i coworkingy.':
+      'It suits small offices, whole administrative floors, salons, clinics, shops and coworking spaces.',
+    'Jak vznikne rozpočet a harmonogram?': 'How are the budget and schedule built?',
+    'Nejprve se upřesní provozní omezení, rozsah a stav prostoru. Poté lze připravit návrh harmonogramu a orientační rozpočet.':
+      'We first clarify operational constraints, scope and the current state of the space. Then we can draft a schedule and rough budget.',
+    'Rekonstrukce koupelny v Praze na klíč': 'Turnkey bathroom renovations in Prague',
+    'Od demontáže staré koupelny přes nové rozvody vody a elektřiny, hydroizolaci, obklady a sanitu až po závěrečný úklid a předání.':
+      'From stripping out the old bathroom through new water and power runs, waterproofing, tiling and fixtures to final clean-up and handover.',
+    'Jeden kontakt pro celou zakázku': 'One contact for the whole project',
+    'Hydroizolace a příprava podkladu': 'Waterproofing and substrate prep',
+    'Obklady, sanita, osvětlení': 'Tiling, fixtures, lighting',
+    'Demontáž starého vybavení a příprava prostoru':
+      'Stripping old fixtures and preparing the space',
+    'Odvoz suti a základní úklid po bouracích pracích':
+      'Debris removal and basic clean-up after demolition',
+    'Rozvody vody, odpadu a elektřiny podle potřeby':
+      'Water, drain and electrical runs as needed',
+    'Hydroizolace a příprava podkladu pod obklady':
+      'Waterproofing and substrate prep for tiling',
+    'Pokládka obkladů a dlažby': 'Wall and floor tiling',
+    'Montáž sanity, baterií a koupelnového nábytku':
+      'Installing fixtures, taps and bathroom furniture',
+    'Osvětlení, zrcadla a dokončovací prvky': 'Lighting, mirrors and finishing pieces',
+    'Závěrečný úklid a předání hotové koupelny':
+      'Final clean-up and handover of the finished bathroom',
+    'Pro jaké koupelny': 'Which bathrooms we work on',
+    'Malé koupelny v paneláku': 'Small panel-block bathrooms',
+    'Koupelnová jádra': 'Prefab bathroom cores',
+    'Koupelny v cihlovém bytě': 'Bathrooms in brick-built apartments',
+    'Samostatné WC': 'Separate WC',
+    'Modernizace před pronájmem': 'Modernisation before letting',
+    'Orientační balíčky': 'Indicative packages',
+    'Malá koupelna': 'Small bathroom',
+    'od 89 000 Kč': 'from 89,000 CZK',
+    'Vhodné pro menší koupelny, WC nebo základní modernizaci.':
+      'Suitable for small bathrooms, WCs or basic modernisation.',
+    'Standardní koupelna': 'Standard bathroom',
+    'od 119 000 Kč': 'from 119,000 CZK',
+    'Kompletní rekonstrukce koupelny v běžném bytě.':
+      'Full bathroom renovation in a typical apartment.',
+    'Komfortní řešení': 'Comfort package',
+    'od 149 000 Kč': 'from 149,000 CZK',
+    'Rozšířený rozsah prací, kvalitnější materiály a více detailů.':
+      'Wider scope, higher-grade materials and more detailing.',
+    'Ceny jsou orientační. Přesný rozpočet závisí na velikosti koupelny, stavu rozvodů, podkladu, výběru sanity, obkladů a rozsahu prací.':
+      'Prices are indicative. The final budget depends on the bathroom size, state of the runs, substrate, fixtures, tiling and scope.',
+    'Proč je důležitá příprava podkladu a hydroizolace':
+      'Why substrate prep and waterproofing matter',
+    'U koupelny nerozhoduje jen finální vzhled. Důležité jsou i vrstvy a návaznosti, které po dokončení nejsou vidět.':
+      'A bathroom isn’t just about the final look. The hidden layers and transitions that no one sees afterwards matter just as much.',
+    'Podklad, spády a napojení': 'Substrate, slopes and connections',
+    'Před pokládkou je potřeba řešit stav podkladu, rovinnost, spády, rohy a napojení kolem vany, sprchy nebo WC.':
+      'Before tiling, the substrate condition, flatness, slopes, corners and connections around the tub, shower or WC need attention.',
+    'Technicky připravená koupelna': 'A technically prepared bathroom',
+    'Koupelna musí být správně připravená i technicky, proto se hydroizolace a příprava řeší před obklady.':
+      'A bathroom needs proper technical prep — that’s why waterproofing and prep happen before tiling.',
+    'Demontáž starého vybavení': 'Stripping old fixtures',
+    'Příprava podkladu': 'Substrate prep',
+    'Obklady a dlažba': 'Wall and floor tile',
+    'Montáž sanity': 'Fixture installation',
+    'Konkrétní sanita': 'Specific fixtures',
+    'Koupelnový nábytek': 'Bathroom furniture',
+    'Osvětlení a zrcadla': 'Lighting and mirrors',
+    'Revize a odborné úkony': 'Inspections and certified work',
+    'Jak probíhá rekonstrukce': 'How the renovation runs',
+    'Pošlete rozměry, fotky současného stavu a základní představu o rozsahu.':
+      'Send measurements, photos of the current state and your idea of the scope.',
+    'Konzultace a zaměření': 'Consultation and site survey',
+    'Upřesníme možnosti, stav prostoru, návaznosti a případné technické otázky.':
+      'We clarify options, the state of the space, dependencies and any technical questions.',
+    'Rozpočet a výběr rozsahu': 'Budget and scope choice',
+    'Domluvíme, co bude součástí prací a co se bude řešit individuálně.':
+      'We agree what is included in the work and what is handled separately.',
+    'Demontáž a příprava': 'Strip-out and prep',
+    'Proběhne demontáž, příprava podkladu a řešení návazností před novými vrstvami.':
+      'We strip out, prep the substrate and resolve transitions before the new layers.',
+    'Podle rozsahu se řeší rozvody, hydroizolace, obklady, dlažba a detaily.':
+      'Depending on scope we handle the runs, waterproofing, tiling and detailing.',
+    'Montáž, úklid a předání': 'Installation, clean-up and handover',
+    'Namontuje se sanita a dokončovací prvky, prostor se uklidí a předá.':
+      'We install fixtures and finishing pieces, clean up and hand over the space.',
+    'Ukázky koupelnových řešení': 'Bathroom design samples',
+    'Světlá koupelna se sprchovým koutem': 'Bright bathroom with a shower enclosure',
+    'Koupelna s vanou a neutrálním obkladem': 'Bathroom with a tub and neutral tile',
+    'Detail umyvadla, zrcadla a osvětlení': 'Detail: basin, mirror and lighting',
+    'Kompaktní koupelna s úložným prostorem': 'Compact bathroom with storage',
+    'Velkoformátový obklad a čisté linie': 'Large-format tile and clean lines',
+    'Detail baterie, dlažby a dokončovacích prvků':
+      'Detail: tap, tile and finishing pieces',
+    'Kolik stojí rekonstrukce koupelny?': 'How much does a bathroom renovation cost?',
+    'Orientační cena začíná u menších koupelen od 89 000 Kč. Výsledný rozpočet závisí na velikosti, stavu rozvodů, výběru materiálů a rozsahu prací.':
+      'A rough starting price for smaller bathrooms is around 89,000 CZK. The final budget depends on size, the state of the runs, materials and scope.',
+    'Jak dlouho trvá rekonstrukce koupelny?': 'How long does a bathroom renovation take?',
+    'Doba realizace se odvíjí od rozsahu prací, stavu rozvodů, dostupnosti materiálu a technologických návazností. Termín se domlouvá po zaměření a schválení rozsahu.':
+      'Duration depends on scope, the state of the runs, material availability and technical sequencing. Timing is agreed after the site survey and scope approval.',
+    'Dá se použít vlastní sanita a obklady?': 'Can I use my own fixtures and tiles?',
+    'Ano, materiál může dodat klient nebo jej lze vybrat společně podle rozpočtu a požadovaného výsledku. Vhodnost sanity a obkladů je dobré ověřit před začátkem prací.':
+      'Yes — you can supply materials or we can pick them together by budget and target result. It’s worth checking suitability before starting.',
+    'Řešíte i malé koupelny v paneláku?': 'Do you do small panel-block bathrooms?',
+    'Ano, malé koupelny v panelových bytech a koupelnová jádra patří mezi běžné typy zakázek. Důležité je upřesnit rozměry, stav jádra a návaznost na rozvody.':
+      'Yes — small panel-block bathrooms and prefab bathroom cores are a common job. The key is to pin down dimensions, the core’s state and the run connections.',
+    'Je nutné měnit rozvody?': 'Do the runs need to be replaced?',
+    'Není to vždy nutné, ale u starších koupelen může být výměna vody, odpadu nebo elektroinstalace vhodná. Stav se posuzuje podle konkrétní koupelny.':
+      'Not always — but for older bathrooms, replacing water, drain or electrical runs may be advisable. State is assessed per bathroom.',
+    'Co nejvíc ovlivňuje cenu koupelny?': 'What drives bathroom prices the most?',
+    'Cenu nejvíc ovlivňuje velikost koupelny, stav rozvodů a podkladu, rozsah demontáže, výběr sanity, obkladů, dlažby a požadované dokončovací práce.':
+      'The biggest drivers are size, the state of runs and substrate, demolition scope, fixture and tile choices and the required finishing work.',
+    'Ano, zakázku je vhodné řešit s jasným rozsahem prací, rozpočtem, fakturou a záručními podmínkami podle typu prací a smlouvy.':
+      'Yes — every job runs with a clear scope, budget, invoice and warranty terms tied to the work type and contract.',
+    'Štukování a omítky v Praze pro byty a domy':
+      'Plastering and stucco in Prague — for apartments and houses',
+    'Ruční i strojní omítky, opravy stěn a příprava povrchů pro malbu nebo další dokončovací práce podle domluveného rozsahu.':
+      'Hand and machine plastering, wall repairs and surface prep for painting or further finishing — to the agreed scope.',
+    'Kdy štukování a omítky dávají smysl': 'When plaster and stucco make sense',
+    'Nerovné nebo popraskané zdi': 'Uneven or cracked walls',
+    'Spadaná omítka a staré vrstvy': 'Fallen plaster and old layers',
+    'Hrubé přechody mezi panely': 'Rough transitions between panels',
+    'Příprava povrchu před malováním, tapetami nebo obklady':
+      'Surface prep before painting, wallpapering or tiling',
+    'Štukování': 'Stucco',
+    'Jemná omítka na hotové zdi': 'Fine plaster on a finished wall',
+    'Hrubá omítka': 'Coarse plaster',
+    'Strojní omítky': 'Machine plastering',
+    'Ruční štuk': 'Hand stucco',
+    'Vyrovnání stěn': 'Wall levelling',
+    'Základní vyrovnání a penetrace': 'Basic levelling and priming',
+    'Sádrové omítky dle přání': 'Gypsum plasters on request',
+    'Výhody naší práce': 'Why work with us',
+    'Příprava podkladu podle stavu stěn': 'Substrate prep matched to the wall’s condition',
+    'Termín podle rozsahu, stavu stěn a technologických přestávek':
+      'Timing per scope, wall condition and technical drying times',
+    'Materiál a zakrytí ploch podle dohody':
+      'Materials and surface protection by agreement',
+    'Faktura a záruka dle typu prací a smlouvy':
+      'Invoice and warranty per work type and contract',
+    'Ukázky před/po': 'Before-and-after samples',
+    'Štukování stěn': 'Wall stucco',
+    'od 220 Kč/m²': 'from 220 CZK/m²',
+    'od 260 Kč/m²': 'from 260 CZK/m²',
+    'Vyrovnání nerovností': 'Levelling unevenness',
+    'od 150 Kč/m²': 'from 150 CZK/m²',
+    'Síťování + penetrace': 'Mesh + primer',
+    'od 80 Kč/m²': 'from 80 CZK/m²',
+    'Cena je orientační a závisí na rozsahu, stavu místa, materiálu a dostupnosti. Harmonogram ovlivňuje stav podkladu, vlhkost, schnutí vrstev a technologické přestávky.':
+      'Prices are indicative and depend on scope, site condition, materials and availability. The schedule is shaped by the substrate, humidity, drying times and technical pauses.',
+    'Náš proces': 'Our process',
+    'Pošlete popis místností, přibližnou plochu a fotky stěn.':
+      'Send a room description, the approximate area and photos of the walls.',
+    'Domluvíme stav podkladu, materiál, zakrytí ploch a orientační cenu.':
+      'We agree the substrate, materials, surface protection and a rough price.',
+    'Připravíme podklad, provedeme omítky nebo štukování podle rozsahu.':
+      'We prep the substrate and apply plaster or stucco per the agreed scope.',
+    'Po technologických přestávkách zkontrolujeme povrch a předáme práci.':
+      'After technical pauses we inspect the surface and hand over the work.',
+    'Kolik vrstev doporučujete?': 'How many coats do you recommend?',
+    'Obvykle stačí jedna štuková vrstva, ale posoudíme stav zdí na místě.':
+      'Usually one stucco coat is enough, but we check the walls on site.',
+    'Je nutné před tím penetrovat?': 'Does the wall need priming first?',
+    'Ano, před štukováním je penetrace vhodná pro lepší přilnavost.':
+      'Yes — priming before stucco helps adhesion.',
+    'Můžete dodat i barvu/malíře?': 'Can you supply paint and a painter too?',
+    'Ano, umíme navazující malířské práce i materiál.':
+      'Yes — we can do follow-on painting and supply the materials.',
+    'Jak připravit byt?': 'How should I prepare the apartment?',
+    'Doporučujeme odstranit nábytek od zdí a zakrýt citlivé plochy.':
+      'We recommend moving furniture away from walls and covering sensitive surfaces.',
+    'Jak dlouho práce trvají?': 'How long does the work take?',
+    'Termín podle rozsahu, stavu stěn a technologických přestávek. Schnutí vrstev může harmonogram prodloužit.':
+      'Timing depends on scope, wall condition and drying pauses — layer drying can extend the schedule.',
+    'Co nejvíc ovlivňuje cenu?': 'What drives the price the most?',
+    'Rozsah ploch, stav podkladu, počet vrstev, materiál, přístup do prostoru a návazné dokončovací práce.':
+      'The area, substrate condition, number of coats, materials, site access and any follow-on finishing.',
+    'Zateplení fasád v Praze pro lepší komfort bydlení':
+      'Facade insulation in Prague — for better living comfort',
+    'Pomůžeme snížit tepelné ztráty a zlepšit komfort bydlení. Výsledná úspora závisí na stavu domu, typu izolace, kvalitě provedení a způsobu vytápění.':
+      'We help cut heat losses and improve living comfort. The actual saving depends on the building, the insulation, the quality of execution and the heating system.',
+    'Tepelné ztráty a komfort bydlení': 'Heat losses and living comfort',
+    'Zateplení fasády pomáhá omezit únik tepla, zlepšit vnitřní komfort a chránit konstrukci domu. Konkrétní přínos vždy posuzujeme podle stavu objektu, zvolené izolace a způsobu užívání domu.':
+      'Facade insulation helps cut heat loss, improve indoor comfort and protect the structure. The specific benefit is always assessed per building, insulation choice and how the building is used.',
+    'Proč zateplit?': 'Why insulate?',
+    'Menší tepelné ztráty': 'Lower heat losses',
+    'Vyšší komfort a méně hluku': 'Better comfort and less noise',
+    'Ochrana fasády a delší životnost domu': 'Facade protection and longer building life',
+    'Materiály a skladba zateplení': 'Materials and insulation build-up',
+    'Navrhujeme skladbu fasády podle stavu podkladu, typu domu a požadavků na tepelný komfort. Řešíme izolant, kotvení, armovací vrstvu, finální omítku i detaily kolem otvorů a soklu.':
+      'We design the facade build-up based on the substrate, the building and the thermal-comfort target. That covers insulant, fixings, reinforcement, final render and details around openings and the plinth.',
+    'Jak funguje zateplení': 'How insulation works',
+    'Na schématu je vidět skladba stěny od nosné konstrukce až po finální omítku.':
+      'The diagram shows the wall build-up from the structural layer through to the final render.',
+    'Co zahrnuje zateplení fasády': 'What facade insulation covers',
+    'Posoudíme stav fasády, rovinnost, soudržnost a místa, která vyžadují přípravu před lepením izolace.':
+      'We assess the facade — flatness, cohesion and spots that need prep before the insulation is bonded.',
+    'Návrh izolace': 'Insulation proposal',
+    'Doporučíme vhodný typ izolantu a skladbu podle objektu, požadovaného výsledku a technických možností.':
+      'We recommend the right insulant type and build-up for the building, target result and technical options.',
+    'Příprava fasády': 'Facade prep',
+    'Zajistíme očištění, opravy nesoudržných míst, penetraci a přípravu detailů pro další vrstvy.':
+      'We handle cleaning, repairs to loose areas, priming and detailing prep for the next layers.',
+    'Lepení a kotvení izolantu': 'Bonding and anchoring the insulation',
+    'Izolaci lepíme a kotvíme podle zvolené skladby, podkladu a doporučeného technologického postupu.':
+      'We bond and anchor the insulation to the chosen build-up, substrate and the recommended technical process.',
+    'Armovací vrstva': 'Reinforcement layer',
+    'Připravíme výztužnou vrstvu se síťovinou, rohovými profily a řešením namáhaných míst.':
+      'We build the reinforcement layer with mesh, corner profiles and stress-point detailing.',
+    'Finální omítka': 'Final render',
+    'Po vyzrání vrstev dokončíme fasádu finální omítkou v domluvené struktuře a odstínu.':
+      'Once the layers have cured we finish the facade with render in the agreed texture and colour.',
+    'Detaily kolem oken, dveří a soklu': 'Details around windows, doors and plinth',
+    'Zvláštní pozornost věnujeme napojení na parapety, ostění, dveře, soklovou část a další místa, kde rozhodují detaily provedení.':
+      'We pay special attention to sills, jambs, doors, the plinth and other spots where the execution details count.',
+    'Kalkulačka ceny': 'Price calculator',
+    'Postup prací': 'How the work runs',
+    'Návrh skladby': 'Build-up proposal',
+    'Před realizací upřesníme rozsah prací, technologický postup, termín a podmínky vhodné pro lepení, armování a finální omítku.':
+      'Before starting we clarify the scope, technical process, timing and conditions needed for bonding, reinforcement and the final render.',
+    'Kolik stojí zateplení fasády za m²?': 'How much does facade insulation cost per m²?',
+    'Cena závisí na ploše fasády, stavu podkladu, typu izolace, tloušťce materiálu, detailech kolem otvorů a zvolené finální omítce. Po upřesnění rozsahu připravíme orientační nebo položkový rozpočet.':
+      'Price depends on facade area, substrate condition, insulation type, material thickness, opening details and the chosen render. After scope clarification we prepare a rough or itemised budget.',
+    'Jaký typ izolace je vhodný?': 'Which type of insulation is suitable?',
+    'Volba izolace závisí na typu domu, požadavcích na tepelný komfort, požární řešení, vlhkostní poměry a rozpočet. Nejprve posoudíme stav objektu a podle toho doporučíme vhodnou skladbu.':
+      'The choice depends on building type, thermal comfort, fire requirements, moisture conditions and budget. We first assess the building, then recommend a suitable build-up.',
+    'Jak dlouho realizace trvá?': 'How long does the work take?',
+    'Délka prací se odvíjí od velikosti fasády, členitosti domu, přípravy podkladu, technologických přestávek a počasí. Termín vždy upřesňujeme podle konkrétní zakázky.':
+      'Duration tracks facade size, building geometry, substrate prep, technical pauses and weather. Timing is always confirmed per project.',
+    'Dá se zateplovat v každém počasí?': 'Can insulation be done in any weather?',
+    'Ne. Lepení, armování i finální omítka potřebují vhodné teploty a suché podmínky. Silný déšť, vítr, mráz nebo vysoké teploty mohou postup prací ovlivnit.':
+      'No. Bonding, reinforcement and final render need suitable temperatures and dry conditions. Heavy rain, wind, frost or extreme heat can affect progress.',
+    'Pracujete v Praze a okolí?': 'Do you work in Prague and around?',
+    'Ano, zateplení fasád řešíme v Praze a okolí. Dostupnost a termín závisí na lokalitě, rozsahu a aktuálním harmonogramu.':
+      'Yes — we cover Prague and around. Availability and timing depend on location, scope and our current schedule.',
+    'Chcete zlepšit komfort domu a snížit tepelné ztráty?':
+      'Want to boost your home’s comfort and cut heat losses?',
+    /* ============ lead-form (dynamic, rendered by lead-form.js) ============ */
+    'Získat nezávaznou kalkulaci prostoru': 'Get a non-binding space estimate',
+    'Získat nezávaznou kalkulaci oprav': 'Get a non-binding repairs estimate',
+    'Získat orientační cenu koupelny': 'Get a rough bathroom price',
+    'Získat nezávaznou kalkulaci štukování': 'Get a non-binding plastering estimate',
+    'Získat nezávaznou kalkulaci elektro prací': 'Get a non-binding electrical estimate',
+    'Čím více informací pošlete, tím lépe dokážeme odhadnout další postup.':
+      'The more you send us, the better we can estimate the next steps.',
+    'Typ služby': 'Service type',
+    'Lokalita / část Prahy': 'Location / part of Prague',
+    'Přibližná plocha': 'Approximate area',
+    'Kdy chcete práce řešit': 'When you want the work done',
+    'Popis zakázky': 'Job description',
+    'Fotografie prostoru': 'Photos of the space',
+    'Volitelné. Fotky pomohou s orientačním posouzením, pokud bude formulář napojený na backend.':
+      'Optional. Photos help with a rough assessment once the form is wired to a backend.',
+    'Souhlasím se zpracováním údajů za účelem odpovědi na poptávku.':
+      'I agree to my data being processed for the purpose of replying to this inquiry.',
+    'Štukování / omítky': 'Plastering / stucco',
+    'Rekonstrukce kanceláře / komerčního prostoru': 'Office / commercial-space renovation',
+    'Jiné': 'Other',
+    'Děkujeme, poptávku jsme přijali. Ozveme se vám s dalším postupem.':
+      'Thanks — we’ve received your inquiry. We’ll be in touch with next steps.',
+    'Formulář se nepodařilo odeslat. Zkuste to prosím znovu nebo nám napište na WhatsApp.':
+      'The form couldn’t be sent. Please try again or message us on WhatsApp.',
+    'Zkontrolujte prosím povinná pole a souhlas se zpracováním údajů.':
+      'Please check the required fields and the data-processing consent.',
+
+    /* lead-form placeholders */
+    'Např. Praha 4, Vinohrady, okolí Prahy': 'E.g. Prague 4, Vinohrady, around Prague',
+    'Např. 45 m², koupelna 4 m²': 'E.g. 45 m², bathroom 4 m²',
+    'Např. co nejdříve, za měsíc, jaro': 'E.g. asap, in a month, spring',
+    'Popište stručně prostor, aktuální stav, požadovaný rozsah a důležité detaily.':
+      'Briefly describe the space, current state, required scope and important details.',
+    'Počet pokojů': 'Number of rooms',
+    'Jak pracujeme': 'How we work',
+
   };
 
   const DICTS = { en: EN };
 
   /* ---------- ENGINE ---------- */
   const STORAGE_KEY = 'stavpraha-lang';
-  const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'CODE', 'PRE', 'TEXTAREA']);
+  const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'CODE', 'PRE']);
   const INLINE_TAGS = new Set(['BR', 'STRONG', 'EM', 'SPAN', 'A', 'SMALL', 'B', 'I', 'U', 'MARK']);
   const TRANSLATABLE_ATTRS = ['placeholder', 'title', 'alt', 'aria-label'];
 
@@ -531,13 +1316,29 @@
       .trim();
   }
 
+  /* Regex fallback for dynamic strings (inline calc scripts inject text like
+     "Odhadovaná cena: 1 500 000 Kč" — the embedded number prevents an exact
+     dictionary match, so we substitute the static fragments instead). */
+  function regexFallback(key, lang) {
+    if (lang !== 'en') return null;
+    if (/^(Odhadovaná cena|Orientační cena):/.test(key)) {
+      return key
+        .replace(/^Odhadovaná cena:/, 'Estimated price:')
+        .replace(/^Orientační cena:/, 'Estimated price:')
+        .replace(/ Kč(\b|$)/g, ' CZK')
+        .replace(/(\d) (\d)/g, '$1,$2');
+    }
+    return null;
+  }
+
   function lookup(text, lang) {
     if (!text || lang === 'cs') return null;
     const dict = DICTS[lang];
     if (!dict) return null;
     const key = normalize(text);
     if (!key) return null;
-    return Object.prototype.hasOwnProperty.call(dict, key) ? dict[key] : null;
+    if (Object.prototype.hasOwnProperty.call(dict, key)) return dict[key];
+    return regexFallback(key, lang);
   }
 
   function isInSkip(el) {
@@ -769,12 +1570,14 @@
     injectStyles();
     injectToggle();
     applyLang(currentLang);
-    /* For React (v2) or any other dynamic content: re-apply after React mounts,
-       then start the observer to catch later updates. Staggered re-applies because
-       Babel-in-browser + React mount timing is unpredictable. */
+    /* MutationObserver runs on every page so dynamic content (e.g. inline calc
+       scripts that write "Odhadovaná cena: X Kč" into the DOM) gets translated
+       when the user interacts. The observer is debounced via requestAnimationFrame,
+       so cost is minimal. */
+    startObserver();
+    /* React (v2) mount timing is unpredictable — re-apply across a few frames. */
     if (document.querySelector('#root')) {
       [300, 800, 1600, 3000].forEach(t => setTimeout(() => applyLang(currentLang), t));
-      setTimeout(startObserver, 1200);
       setTimeout(() => { if (!document.querySelector('.lang-toggle')) injectToggle(); }, 1800);
     }
   }
