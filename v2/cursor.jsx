@@ -94,16 +94,29 @@ function ScrollProgress() {
   return <div ref={ref} className="scroll-progress"></div>;
 }
 
-// Reveal — sets data-hidden initially then removes on intersect.
-// Uses data-attribute (not className) to avoid React reconciliation wiping it.
+// Reveal — sets data-hidden initially on below-the-fold items, then removes
+// on intersect. Uses data-attribute (not className) to avoid React reconciliation
+// wiping it. A scroll listener acts as a fast-scroll safety net so the user
+// can't out-scroll the IntersectionObserver and end up with a blank page.
 function useReveal() {
   useEffect(() => {
     const els = Array.from(document.querySelectorAll('.reveal, .reveal-letters'));
-    // Tag everything as hidden first
-    els.forEach(el => el.setAttribute('data-hidden', '1'));
     const reveal = (el) => {
       el.removeAttribute('data-hidden');
       el.classList.add('is-visible');
+    };
+    const isNearOrInView = (el) => {
+      const r = el.getBoundingClientRect();
+      return r.top < window.innerHeight + 100 && r.bottom > -100;
+    };
+    // Only hide elements that aren't already in or near the viewport — anything
+    // visible on first paint stays visible immediately (no opacity flash).
+    els.forEach(el => { if (!isNearOrInView(el)) el.setAttribute('data-hidden', '1'); });
+    const checkInView = () => {
+      els.forEach(el => {
+        if (!el.hasAttribute('data-hidden')) return;
+        if (isNearOrInView(el)) reveal(el);
+      });
     };
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -111,21 +124,28 @@ function useReveal() {
       });
     }, { threshold: 0.01, rootMargin: '0px 0px 100px 0px' });
     els.forEach(el => observer.observe(el));
-    const checkInView = () => {
-      els.forEach(el => {
-        if (!el.hasAttribute('data-hidden')) return;
-        const r = el.getBoundingClientRect();
-        if (r.top < window.innerHeight + 100 && r.bottom > -100) reveal(el);
-      });
+    // Fast-scroll safety net: rAF-throttled scroll handler reveals anything
+    // the user scrolls toward, even when the IntersectionObserver hasn't fired
+    // yet (which can happen during very fast scrolls).
+    let scrollRaf = null;
+    const onScroll = () => {
+      if (scrollRaf) return;
+      scrollRaf = requestAnimationFrame(() => { scrollRaf = null; checkInView(); });
     };
-    // Defer initial check so paint commits the hidden state first
+    window.addEventListener('scroll', onScroll, { passive: true });
+    // Run a few times early in case IO doesn't fire for above-the-fold items.
     requestAnimationFrame(() => requestAnimationFrame(checkInView));
+    setTimeout(checkInView, 100);
     setTimeout(checkInView, 300);
-    // Last-resort safety: anything still hidden after 2s, show it
+    // Final hard safety net: anything still hidden after 1s, just show it.
     setTimeout(() => {
       els.forEach(el => el.hasAttribute('data-hidden') && reveal(el));
-    }, 2000);
-    return () => observer.disconnect();
+    }, 1000);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+    };
   }, []);
 }
 
